@@ -1,0 +1,98 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #af35db;
+background: linear-gradient(90deg,rgba(175, 53, 219, 1) 0%, rgb(34, 194, 226) 50%, rgb(58, 192, 183) 100%);
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img-topo{
+    height: 52px;
+    
+}
+
+.cetro-do-topo{
+    display: flex;
+    gap: 32px;
+}
+
+.t-CM{
+   font-family: Times, Times New Roman, serif; 
+   color: azure;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.conteudo1{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #d5f1f1;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 22px;
+}
+
+.h1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 32px;
+    color: #d5f1f1;
+}
+
+.h2{
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 24px;
+    color: #d5f1f1;
+}
+
+.button{
+    background-color: paleturquoise;
+    color: #14024796;
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 18px;
+    padding: 8px 22px;
+    border-color: rgb(182, 214, 243);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    &:hover{
+        background-color: #dfd7eb;
+    }
+
+}.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    gap: 16px;
+}
+
+.h3{
+    font-family: Times, Times New Roman, serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.p1{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
